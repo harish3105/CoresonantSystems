@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+}
+
+.items-container{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    align-items: center;
+}
+.mark-as-read{
+    text-decoration: line-through;
+    text-decoration-color: rgb(40, 4, 247);
+}
+.task-check-item{
+    color: black;
+}
+.items-heading{
+    text-align: left;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+.check-box{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 20px;
+    margin-right: 12px;
+}
+.buttons-container{
+    display: flex;
+}
+.edit-button{
+    color: rgb(5, 44, 243);
+    border:solid 1.2px  rgb(40, 4, 247);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 5px;
+    margin-left: 20px;
+    height: 40px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+.delete-button{
+    color: rgb(230, 6, 6);
+    border:solid 1.2px rgb(230, 6, 6);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 5px;
+    height: 40px;
+    width: 50px;
+    margin-bottom: 20px;
+}
